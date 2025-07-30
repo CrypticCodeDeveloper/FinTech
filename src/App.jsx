@@ -1,10 +1,13 @@
 
 import {RouterProvider, Route, createRoutesFromElements, createBrowserRouter} from "react-router-dom";
+import BaseLayout from "./layouts/base-layout";
 import LandingPage from "./pages/landing-page";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-      <Route path="/" element={<LandingPage />} />
+      <Route element={<BaseLayout />} path="/" >
+          <Route index element={<LandingPage />} />
+      </Route>
   )
 )
 
