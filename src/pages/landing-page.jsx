@@ -1,6 +1,9 @@
 import Navbar from "../components/landing-page/navbar"
 import Hero from "../components/landing-page/hero"
 import {Handshake, PhoneCall, Lock} from "lucide-react"
+import TestimonialsCarousel from "../components/mvpblocks/testimonials-carousel"
+import SlidingLogos from "../components/landing-page/sliding-logos"
+import Footer from "../components/landing-page/footer"
 
 const LandingPage = () => {
 
@@ -27,6 +30,7 @@ const LandingPage = () => {
         <Navbar />
         <div className="px-5">
             <Hero />
+            <SlidingLogos />
             {/* Manage everything in your hand */}
             <div className="w-full flex items-center text-white justify-between mt-10 pb-5">
                 <div className="min-w-[50%]">
@@ -96,6 +100,8 @@ const LandingPage = () => {
 
                 </div>
             </div>
+            <TestimonialsCarousel />
+            <Footer />
         </div>
     </>
   )

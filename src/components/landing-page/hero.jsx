@@ -1,8 +1,7 @@
-import React from "react";
 
 const Hero = () => {
   return (
-    <section className="h-[70vh] w-full flex items-center border-b border-gray-300">
+    <section className="h-[70vh] w-full flex items-center">
       <div className="max-w-[50%]">
         <h2 className="text-white text-5xl font-semibold">
           Take control of your <span className="text-purple-700">finances</span>{" "}
