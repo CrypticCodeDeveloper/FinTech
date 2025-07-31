@@ -5,52 +5,7 @@ import { cn } from '@/lib/utils';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
-
-const defaultTestimonials = [
-  {
-    text: 'This app completely changed the way I manage money. I automated my savings, tracked spending, and stopped worrying.',
-    imageSrc: '/assets/avatars/avatar-1.webp',
-    name: 'Arjun Mehta',
-    username: '@arjmehta',
-    role: 'Software Engineer',
-  },
-  {
-    text: 'I’ve used a dozen finance tools, but this is by far the smoothest. Clean UI, no learning curve — just works.',
-    imageSrc: '/assets/avatars/avatar-2.webp',
-    name: 'Sara Lin',
-    username: '@sarafintech',
-    role: 'UX Designer',
-  },
-  {
-    text: 'Our startup team now uses it for payroll, expense tracking, and budgeting. We launched fast and never looked back.',
-    imageSrc: '/assets/avatars/avatar-3.webp',
-    name: 'Devon Carter',
-    username: '@devcarter',
-    role: 'Startup Founder',
-  },
-  {
-    text: 'I connected my accounts, and within minutes, the app gave me insights that took me hours before. Game-changer.',
-    imageSrc: '/assets/avatars/avatar-4.webp',
-    name: 'Priya Shah',
-    username: '@priyafinance',
-    role: 'Full Stack Developer',
-  },
-  {
-    text: 'I built my emergency fund using the auto-save feature. Never knew saving could be this easy.',
-    imageSrc: '/assets/avatars/avatar-5.webp',
-    name: 'Leo Martin',
-    username: '@leosaves',
-    role: 'Freelancer',
-  },
-  {
-    text: 'We use it to track personal and team budgets — and haven’t opened a spreadsheet in weeks.',
-    imageSrc: '/assets/avatars/avatar-6.webp',
-    name: 'Chloe Winters',
-    username: '@chloebudgets',
-    role: 'Operations Lead',
-  },
-];
-
+import { defaultTestimonials } from '../../constants/static';
 
 export default function TestimonialsCarousel({
   testimonials = defaultTestimonials,

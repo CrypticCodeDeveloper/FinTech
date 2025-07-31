@@ -1,9 +1,9 @@
 
 const Hero = () => {
   return (
-    <section className="h-[70vh] w-full flex items-center">
-      <div className="max-w-[50%]">
-        <h2 className="text-white text-5xl font-semibold">
+    <section className="sm:h-[75vh] w-full flex flex-col lg:flex-row items-center pt-8">
+      <div className="lg:max-w-[50%]">
+        <h2 className="text-white max-lg:max-w-[700px] text-3xl sm:text-4xl lg:text-5xl font-semibold">
           Take control of your <span className="text-purple-700">finances</span>{" "}
           with powerful <span className="text-purple-700">tools</span>
         </h2>
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <img src='/finance_tools.webp' alt='' className="w-[800px]" />
+        <img src='/finance_tools.webp' alt='' className="w-[500px] lg:w-full max-h-[500px] max-sm:mt-5" />
       </div>
     </section>
   );

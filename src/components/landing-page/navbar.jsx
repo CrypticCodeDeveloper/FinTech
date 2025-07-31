@@ -1,6 +1,4 @@
 import {
-  Mail,
-  Clock,
   Facebook,
   Instagram,
   Linkedin,
@@ -8,27 +6,11 @@ import {
 } from "lucide-react";
 
 import { NavLink } from "react-router-dom";
+import MobileMenu from "./mobile-menu";
+import { navLinks } from "../../constants/static";
 
 const Navbar = () => {
 
-  const navLinks = [
-    {
-      label: "Home",
-      to: "/"
-    },
-    {
-      label: "About us",
-      to: "/about"
-    },
-    {
-      label: "Contact",
-      to: "/contact"
-    },
-    {
-      label: "Pricing",
-      to: "/pricing"
-    }
-  ]
 
   return (
     <div className="w-full justify-between px-5 flex p-4">
@@ -39,10 +21,19 @@ const Navbar = () => {
             </h1>
         </div>
 
-        <div className="flex items-center gap-8">
+        {/* Mobile Menu */}
+        <div className="text-white">
+
+          <MobileMenu />
+
+        </div>
+
+        {/* Desktop Menu */}
+        <div className="hidden lg:flex items-center gap-8">
             <div className="flex items-center gap-5">
                 {
-                  navLinks.map((navLink) => <NavLink to={navLink.to} 
+                  navLinks.map((navLink, index) => <NavLink to={navLink.to} 
+                  key={`${navLink.label}-${index}`}
                   className={({isActive}) => `${isActive ? "font-semibold text-purple-800 text-lg" : "text-gray-300"} hover:text-purple-800 hover:underline 
                   hover:underline-offset-4`} >{navLink.label}</NavLink>)
                 }
