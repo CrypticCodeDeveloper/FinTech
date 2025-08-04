@@ -1,4 +1,4 @@
-import { Handshake, PhoneCall, Lock } from "lucide-react"
+import { Handshake, Users , Map } from "lucide-react"
 
 export const navLinks = [
     {
@@ -22,40 +22,40 @@ export const navLinks = [
 export const landingPagePerks = [
         {
             icon: Handshake,
-            title: "User Friendly",
-            desc: "lorem ipsum, dolor sit amet consectetur adipisicing elit. facere aliquid. Harum voluptate animi voluptates assumenda",
+            title: "Clean Interface",
+            desc: "No clutter, no confusion. DivvyUp is built to be as easy as chatting with friends — just tap, split, and settle.",
         },
         {
-            icon: PhoneCall,
-            title: "Best Support",
-            desc: "lorem ipsum, dolor sit amet consectetur adipisicing elit. facere aliquid. Harum voluptate animi voluptates assumenda",
+            icon: Users,
+            title: "Perfect for Any Group",
+            desc: "Whether you’re roommates, coworkers, NYSC team members, or a circle of friends — DivvyUp works for any group setup, large or small.",
         },
         {
-            icon: Lock,
-            title: "Secure",
-            desc: "lorem ipsum, dolor sit amet consectetur adipisicing elit. facere aliquid. Harum voluptate animi voluptates assumenda",
+            icon: Map,
+            title: "Built for Nigerians",
+            desc: "DivvyUp understands the local experience. From Naira-based transactions to wallet-friendly transfers and mobile-first design, it fits your everyday life.",
         },
     ]
 
 export const landingPageWorkflows = [
     {
         number: 1,
-        title: "Sign up and customize",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facere magnam iste deleniti aliquid qui.",
+        title: "Sign Up & Customize Your Group",
+        desc: "Create an account in minutes and set up your first group — give it a name, choose how you want to split, and invite your people.  It's fast, flexible, and made for all kinds of group expenses.",
         src: "/happy.svg",
         alt: "happy"
     },
     {
         number: 2,
-        title: "Link Your Accounts",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facere magnam iste deleniti aliquid qui.",
+        title: "Add Expenses & Choose How to Split",
+        desc: "Add any shared cost, choose to split it equally or manually, and DivvyUp will calculate who owes what. No math, no spreadsheets — we do the heavy lifting.",
         src: "/accounts.svg",
         alt: "accounts"
     },
     {
         number: 3,
-        title: "Start Saving",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facere magnam iste deleniti aliquid qui.",
+        title: "Track and Settle With Ease",
+        desc: "DivvyUp keeps everyone updated and sends reminders until payments are settled — so no one’s left guessing. Stay organized, stress-free, and focused on what matters.",
         src: "/savings.svg",
         alt: "savings"
     },
@@ -106,45 +106,45 @@ export const slidingLogos = [
 
 export const defaultTestimonials = [
   {
-    text: 'This app completely changed the way I manage money. I automated my savings, tracked spending, and stopped worrying.',
+    text: 'DivvyUp completely changed the way we split bills in my friend group. No more awkward follow-ups — everyone pays their share.',
     imageSrc: '/assets/avatars/avatar-1.webp',
     name: 'Arjun Mehta',
     username: '@arjmehta',
-    role: 'Software Engineer',
+    role: 'Student',
   },
   {
-    text: 'I’ve used a dozen finance tools, but this is by far the smoothest. Clean UI, no learning curve — just works.',
+    text: 'I’ve tried other apps, but this one’s by far the easiest. Simple UI, no confusion — just works for group money stuff.',
     imageSrc: '/assets/avatars/avatar-2.webp',
     name: 'Sara Lin',
     username: '@sarafintech',
-    role: 'UX Designer',
+    role: 'NYSC Member',
   },
   {
-    text: 'Our startup team now uses it for payroll, expense tracking, and budgeting. We launched fast and never looked back.',
+    text: 'We use DivvyUp in our apartment to manage shared expenses. It saves time, avoids tension, and keeps things fair.',
     imageSrc: '/assets/avatars/avatar-3.webp',
     name: 'Devon Carter',
     username: '@devcarter',
-    role: 'Startup Founder',
+    role: 'Roommate',
   },
   {
-    text: 'I connected my accounts, and within minutes, the app gave me insights that took me hours before. Game-changer.',
+    text: 'Instead of chasing people in WhatsApp, I just send a DivvyUp link. Everyone sees what they owe and pays up.',
     imageSrc: '/assets/avatars/avatar-4.webp',
     name: 'Priya Shah',
     username: '@priyafinance',
-    role: 'Full Stack Developer',
+    role: 'Corper',
   },
   {
-    text: 'I built my emergency fund using the auto-save feature. Never knew saving could be this easy.',
+    text: 'Even my less tech-savvy friends figured it out fast. It’s clean, fast, and perfect for anything we do together.',
     imageSrc: '/assets/avatars/avatar-5.webp',
     name: 'Leo Martin',
     username: '@leosaves',
-    role: 'Freelancer',
+    role: 'Church Group Member',
   },
   {
-    text: 'We use it to track personal and team budgets — and haven’t opened a spreadsheet in weeks.',
+    text: 'We use it for trips, hangouts, and bridal contributions. DivvyUp is now part of our group routine.',
     imageSrc: '/assets/avatars/avatar-6.webp',
     name: 'Chloe Winters',
     username: '@chloebudgets',
-    role: 'Operations Lead',
+    role: 'Event Planner',
   },
-];
+]

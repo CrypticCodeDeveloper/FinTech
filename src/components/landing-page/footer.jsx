@@ -31,13 +31,10 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row lg:items-center justify-between">
         <div>
           <h1 className="font-semibold text-2xl text-white">
-            <span className="text-3xl bg-purple-900 px-2 rounded-md">Z</span>
-            pay
-          </h1>
+              <span className="text-3xl bg-purple-900 px-2 rounded-md">D</span>ivvy<span className="font-bold">Up</span>
+            </h1>
           <p className="text-sm text-gray-300 max-w-[350px] mt-2">
-            Vpay is a fintech platform that helps you manage your finances with
-            ease. From budgeting to savings, we provide tools to help you take
-            control of your financial future.
+            No more awkward money talk. Just smooth bill splits, clear records, and instant settling — built for everyday Nigerians.
           </p>
         </div>
 

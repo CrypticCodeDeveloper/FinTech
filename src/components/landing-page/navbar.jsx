@@ -16,8 +16,7 @@ const Navbar = () => {
     <div className="w-full justify-between px-5 flex p-4">
         <div>
             <h1 className="font-semibold text-2xl text-white">
-              <span className="text-3xl bg-purple-900 px-2 rounded-md">Z</span>
-              pay
+              <span className="text-3xl bg-purple-900 px-2 rounded-md">D</span>ivvy<span className="font-bold">Up</span>
             </h1>
         </div>
 

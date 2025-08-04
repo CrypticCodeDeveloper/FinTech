@@ -41,11 +41,11 @@ const MobileMenu = () => {
         <div className="ml-4">
           <h1 className="font-semibold text-2xl text-white">
             <span className="text-3xl bg-white text-purple-800 px-2 rounded-md">
-              Z
+              D
             </span>
-            pay
+            ivvy<span className="font-semibold">Up</span>
           </h1>
-          <p className="mt-3 text-gray-300">Your all in one banking app</p>
+          <p className="mt-3 text-gray-300">Built by a team of everyday Nigerians tired of awkward money convos.</p>
         </div>
 
         {/* Menu Links */}

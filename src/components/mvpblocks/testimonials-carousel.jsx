@@ -10,7 +10,7 @@ import { defaultTestimonials } from '../../constants/static';
 export default function TestimonialsCarousel({
   testimonials = defaultTestimonials,
   title = 'What our users say',
-  subtitle = 'From our awesome services to powerful features, our platform have become essential tools for people around the world.',
+  subtitle = 'People love DivvyUp for how effortlessly it solves real problems — from smooth bill splits to stress-free expense tracking. It’s more than just an app; it’s part of their daily flow.',
   autoplaySpeed = 3000,
   className
 }) {
